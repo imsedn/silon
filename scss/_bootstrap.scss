@@ -3,5 +3,6 @@ $theme-colors: (
     "light-coral": #e9e1d8,
     "lighter-coral": #fef7f6
 );
+$enable-responsive-font-sizes: true;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';

@@ -18,8 +18,7 @@
 <body class="bg-white">
 
     <!-- TOP LINE -->
-    <div
-        class="container-fluid bg-lighter-coral d-none d-md-block py-2 top-line text-uppercase small font-weight-light">
+    <div class="container-fluid bg-lighter-coral d-none d-md-block py-2 top-line text-uppercase small font-weight-light">
 
         <div class="container">
             <div class="row justify-content-between align-items-center">
@@ -34,7 +33,7 @@
                     <a href="#">track order</a>
                     <span class="mx-2">|</span>
                     <div class="dropdown d-inline-block">
-                        <a href="#" class="dropdown-toggle p-0" type="button" id="languageSelect" data-toggle="dropdown"
+                        <a href="#" class="dropdown-toggle p-0" id="languageSelect" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             <span class="text-uppercase font-weight-light">language</span>
                         </a>
@@ -86,7 +85,7 @@
                 </ul>
                 <div class="font-weight-light navbar-icons">
                     <div class="dropdown d-inline-block">
-                        <a href="#" class="pl-4 text-dark" type="button" id="searchForm" data-toggle="dropdown"
+                        <a href="#" class="pl-4 text-dark" id="searchForm" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             <i class="ti-search"></i>
                         </a>
@@ -112,17 +111,21 @@
     <!-- NAVBAR END -->
 
     <!-- HERO TEXT -->
-    <div class="container-fluid hero">
-        <div class="row hero-content">
-            <div class="col-6 hero-content__text">
-                <div class="row justify-content-end">
-                    <div class="col-5">
-                        <h4 class="text-uppercase text-black-50">ultimate collection</h4>
-                    </div>
+    <div class="container-fluid p-0 hero position-relative">
+        <div class="container h-100 hero-content">
+            <div class="row h-100">                
+                <div class="col-12 col-lg-6 h-100 hero-content__text text-center d-flex flex-column justify-content-center align-items-center py-5">
+                    <h4 class="text-uppercase text-black-50">ultimate collection</h4>
+                    <h2 class="display-4 font-weight-bold my-3">Complete Women Fashion Here</h2>
+                    <a href="#" class="btn btn-coral text-uppercase px-5 py-3 btn-sm rounded-lg">Shop now</a>
                 </div>
             </div>
-            <div class="col-6 hero-content__image">
-                <img src="images/ban-1.png" class="img-fluid" alt="a girl">
+        </div>
+        <div class="container-fluid p-0 position-absolute hero-image h-100 d-none d-lg-block">
+            <div class="row h-100 m-0">
+                <div class="col-6 p-0 offset-6 h-100">
+                    <img src="images/ban-1.png" class=" h-100" alt="a girl">
+                </div>
             </div>
         </div>
     </div>

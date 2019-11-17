@@ -58,5 +58,13 @@ html, body {
 .hero {
     background: map-get($theme-colors, "coral") url('../images/bg-1.jpg') no-repeat center;
     background-size: cover;
-    min-height: 500px;
+    height: auto;
+    &-image {
+        top: 0;
+    }
 }
+@media (min-width: 992px) { 
+    .hero {
+        height: 700px;
+    }
+ }
