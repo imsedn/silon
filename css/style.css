@@ -10111,8 +10111,251 @@ html, body {
   font-family: "Roboto", sans-serif;
 }
 
+img {
+  user-select: none;
+}
+
 .dancing-script {
   font-family: "Dancing Script", cursive;
+}
+
+*[class*=stars-count] {
+  text-align: center;
+  color: #ff5353;
+}
+*[class*=stars-count] > i {
+  font-style: normal;
+}
+
+.stars-count-0 > i:nth-child(1):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-0 > i:nth-child(2):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-0 > i:nth-child(3):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-0 > i:nth-child(4):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-0 > i:nth-child(5):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+
+.stars-count-0_5 > i:nth-child(1):after {
+  content: "\f123";
+  font-family: "fontello";
+}
+.stars-count-0_5 > i:nth-child(2):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-0_5 > i:nth-child(3):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-0_5 > i:nth-child(4):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-0_5 > i:nth-child(5):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+
+.stars-count-1 > i:nth-child(1):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-1 > i:nth-child(2):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-1 > i:nth-child(3):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-1 > i:nth-child(4):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-1 > i:nth-child(5):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+
+.stars-count-1_5 > i:nth-child(1):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-1_5 > i:nth-child(2):after {
+  content: "\f123";
+  font-family: "fontello";
+}
+.stars-count-1_5 > i:nth-child(3):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-1_5 > i:nth-child(4):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-1_5 > i:nth-child(5):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+
+.stars-count-2 > i:nth-child(1):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-2 > i:nth-child(2):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-2 > i:nth-child(3):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-2 > i:nth-child(4):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-2 > i:nth-child(5):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+
+.stars-count-2_5 > i:nth-child(1):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-2_5 > i:nth-child(2):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-2_5 > i:nth-child(3):after {
+  content: "\f123";
+  font-family: "fontello";
+}
+.stars-count-2_5 > i:nth-child(4):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-2_5 > i:nth-child(5):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+
+.stars-count-3 > i:nth-child(1):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-3 > i:nth-child(2):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-3 > i:nth-child(3):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-3 > i:nth-child(4):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+.stars-count-3 > i:nth-child(5):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+
+.stars-count-3_5 > i:nth-child(1):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-3_5 > i:nth-child(2):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-3_5 > i:nth-child(3):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-3_5 > i:nth-child(4):after {
+  content: "\f123";
+  font-family: "fontello";
+}
+.stars-count-3_5 > i:nth-child(5):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+
+.stars-count-4 > i:nth-child(1):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-4 > i:nth-child(2):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-4 > i:nth-child(3):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-4 > i:nth-child(4):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-4 > i:nth-child(5):after {
+  content: "\e801";
+  font-family: "fontello";
+}
+
+.stars-count-4_5 > i:nth-child(1):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-4_5 > i:nth-child(2):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-4_5 > i:nth-child(3):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-4_5 > i:nth-child(4):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-4_5 > i:nth-child(5):after {
+  content: "\f123";
+  font-family: "fontello";
+}
+
+.stars-count-5 > i:nth-child(1):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-5 > i:nth-child(2):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-5 > i:nth-child(3):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-5 > i:nth-child(4):after {
+  content: "\e800";
+  font-family: "fontello";
+}
+.stars-count-5 > i:nth-child(5):after {
+  content: "\e800";
+  font-family: "fontello";
 }
 
 .top-line a {
@@ -10163,11 +10406,72 @@ html, body {
 .hero-image {
   top: 0;
 }
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+.hero-content h4 {
+  font-size: 0.85rem;
+  letter-spacing: 4px;
+}
 
 @media (min-width: 992px) {
   .hero {
     height: 700px;
   }
+}
+.section {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.section h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 90px;
+}
+
+.product-overlayed__image {
+  height: 450px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.product-overlayed__image img {
+  height: 100%;
+}
+.product-overlayed__image-overlay {
+  position: absolute;
+  bottom: 13%;
+}
+.product-overlayed__image-overlay > a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #000000;
+  transition: 300ms;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 3px 10px;
+  transform: translateY(120px);
+}
+.product-overlayed__image-overlay > a:hover {
+  background-color: #ff5353;
+  color: #fff;
+}
+.product-overlayed__image-overlay > a:nth-child(2) {
+  transition-delay: 100ms;
+}
+.product-overlayed__image-overlay > a:nth-child(3) {
+  transition-delay: 200ms;
+}
+.product-overlayed__image:hover a {
+  transform: translateY(0);
 }
 
 /*# sourceMappingURL=style.css.map */

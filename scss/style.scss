@@ -1,10 +1,49 @@
 @import 'bootstrap';
 
+$stars-map: (
+    "0":    ('e801','e801','e801','e801','e801'),
+    "0_5":  ('f123','e801','e801','e801','e801'),
+    "1":    ('e800','e801','e801','e801','e801'),
+    "1_5":  ('e800','f123','e801','e801','e801'),
+    "2":    ('e800','e800','e801','e801','e801'),
+    "2_5":  ('e800','e800','f123','e801','e801'),
+    "3":    ('e800','e800','e800','e801','e801'),
+    "3_5":  ('e800','e800','e800','f123','e801'),
+    "4":    ('e800','e800','e800','e800','e801'),
+    "4_5":  ('e800','e800','e800','e800','f123'),
+    "5":    ('e800','e800','e800','e800','e800')
+);
+
 html, body {
     font-family: 'Roboto', sans-serif;
 }
+img {
+    user-select: none;
+}
 .dancing-script {
     font-family: 'Dancing Script', cursive;
+}
+
+*[class*='stars-count'] {
+    text-align: center;
+    color: map-get($map: $theme-colors, $key: 'coral');
+    &>i {
+        font-style: normal;
+    }
+}
+
+@function icon($character){
+    @return unquote('\"') + unquote(str-insert($character,'\\', 1)) + unquote('\"');
+}
+@each $grade, $classes in $stars-map {
+    .stars-count-#{$grade} {
+        @for $i from 1 through 5 {
+            &>i:nth-child(#{$i}):after {
+                content: icon(nth($classes, $i));
+                font-family: 'fontello';
+            }
+        }
+    }
 }
 
 .top-line {
@@ -62,9 +101,76 @@ html, body {
     &-image {
         top: 0;
     }
+    &-content {
+        position: relative;
+        z-index: 1;
+        h4 {
+            font-size: .85rem;
+            letter-spacing: 4px;
+        }
+    }
 }
 @media (min-width: 992px) { 
     .hero {
         height: 700px;
     }
  }
+
+.section {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 900;
+        letter-spacing: 2px;
+        margin-bottom: 90px;
+    }
+
+}
+
+.product-overlayed {
+    &__image {
+        height: 450px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        img {
+            height: 100%;
+        }
+        &-overlay {
+            position: absolute;
+            bottom: 13%;
+            &>a {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #fff;
+                color: #000000;
+                transition: 300ms;
+                text-decoration: none;
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                box-shadow: rgba(0,0,0,.25) 0 3px 10px;
+                transform: translateY(120px);
+                &:hover {
+                    background-color: map-get($map: $theme-colors, $key: 'coral');
+                    color: #fff;
+                }
+                &:nth-child(2) {
+                    transition-delay: 100ms;
+                }
+                &:nth-child(3) {
+                    transition-delay: 200ms;
+                }
+            }
+        }
+        &:hover {
+            a{
+                transform: translateY(0);
+            }
+        }
+    }
+}
