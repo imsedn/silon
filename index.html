@@ -19,7 +19,8 @@
 <body class="bg-white">
 
     <!-- TOP LINE -->
-    <div class="container-fluid bg-lighter-coral d-none d-md-block py-2 top-line text-uppercase small font-weight-light">
+    <div
+        class="container-fluid bg-lighter-coral d-none d-md-block py-2 top-line text-uppercase small font-weight-light">
 
         <div class="container">
             <div class="row justify-content-between align-items-center">
@@ -86,8 +87,8 @@
                 </ul>
                 <div class="font-weight-light navbar-icons">
                     <div class="dropdown d-inline-block">
-                        <a href="#" class="pl-4 text-dark" id="searchForm" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a href="#" class="pl-4 text-dark" id="searchForm" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             <i class="ti-search"></i>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="searchForm">
@@ -114,8 +115,9 @@
     <!-- HERO TEXT -->
     <div class="container-fluid p-0 hero position-relative">
         <div class="container h-100 hero-content">
-            <div class="row h-100">                
-                <div class="col-12 col-lg-6 h-100 hero-content__text text-center d-flex flex-column justify-content-center align-items-center py-5">
+            <div class="row h-100">
+                <div
+                    class="col-12 col-lg-6 h-100 hero-content__text text-center d-flex flex-column justify-content-center align-items-center py-5">
                     <h4 class="text-uppercase text-black-50">ultimate collection</h4>
                     <h2 class="display-4 font-weight-bold my-3">Complete Women Fashion Here</h2>
                     <a href="#" class="btn btn-coral text-uppercase px-5 py-3 btn-sm rounded-lg">Shop now</a>
@@ -146,14 +148,67 @@
                             <a href="#" class="ti-shopping-cart"></a>
                         </div>
                     </div>
-                    <div class="product-overlayed__text">
-                        <a href="#">rEd wOMeN PURsEs</a>
-                        <div class="product-overlayed__text-stars stars-count-2_5">
+                    <div class="product-overlayed__text d-flex flex-column">
+                        <a href="#">red women purses</a>
+                        <div class="product-overlayed__text-stars stars-count-4_5 my-2">
                             <i></i>
                             <i></i>
                             <i></i>
                             <i></i>
                             <i></i>
+                        </div>
+                        <div class="product-overlayed__price text-center font-weight-bold">
+                            <p>$35.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="product-overlayed">
+                    <div class="product-overlayed__image">
+                        <img src="images/products/3.jpg" alt="">
+                        <div class="product-overlayed__image-overlay">
+                            <a href="#" class="ti-eye"></a>
+                            <a href="#" class="ti-heart"></a>
+                            <a href="#" class="ti-shopping-cart"></a>
+                        </div>
+                    </div>
+                    <div class="product-overlayed__text d-flex flex-column">
+                        <a href="#">red women purses</a>
+                        <div class="product-overlayed__text-stars stars-count-5 my-2">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+                        <div class="product-overlayed__price text-center font-weight-bold">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="product-overlayed">
+                    <div class="product-overlayed__image">
+                        <img src="images/products/2.jpg" alt="">
+                        <div class="product-overlayed__image-overlay">
+                            <a href="#" class="ti-eye"></a>
+                            <a href="#" class="ti-heart"></a>
+                            <a href="#" class="ti-shopping-cart"></a>
+                        </div>
+                    </div>
+                    <div class="product-overlayed__text d-flex flex-column">
+                        <a href="#">red women purses</a>
+                        <div class="product-overlayed__text-stars stars-count-3_5 my-2">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+                        <div class="product-overlayed__price text-center font-weight-bold">
+                            <p>$25.00</p>
                         </div>
                     </div>
                 </div>
@@ -162,10 +217,542 @@
     </section>
     <!-- FEATURED PRODUCTS END -->
 
+    <!-- COLLECTIONS -->
+    <div class="container-fluid collections position-relative m-0 p-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="womens_sale text-uppercase d-flex flex-column align-items-center text-center">
+                        <h3 class="display-1">50% off</h3>
+                        <h2 class="my-3">all women's collection</h3>
+                            <button class="btn btn-coral text-uppercase my-4 px-5 py-3 btn-sm rounded-lg">shop
+                                now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0 m-0 position-absolute collections-image h-100 d-none d-lg-block">
+            <div class="row h-100 m-0">
+                <div class="col-6 p-0 offset-6 h-100">
+                    <img src="images/ban-2.png" class=" h-100" alt="a girl">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- COLLECTIONS END-->
+
+    <!-- MOST POPULAR-->
+    <section class="container section popular">
+        <h2>Most popular</h2>
+        <div class="row">
+            <div class="col-12">
+                <div class="most-popular owl-carousel owl-theme" id="most-popular-slider">
+                    <div class="most-popular-content flex-column position-relative item">
+                        <div class="most-popular-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/4.jpg" alt="">
+                            <div class="most-popular-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="most-popular-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-5 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$20.00</p>
+                        </div>
+                    </div>
+                    <div class="most-popular-content flex-column item">
+                        <div class="most-popular-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/5.jpg" alt="">
+                            <div class="most-popular-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="most-popular-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-4_5 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$25.00</p>
+                        </div>
+                    </div>
+                    <div class="most-popular-content flex-column item">
+                        <div class="most-popular-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/6.jpg" alt="">
+                            <div class="most-popular-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="most-popular-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-3_5 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$35.00</p>
+                        </div>
+                    </div>
+                    <div class="most-popular-content flex-column item">
+                        <div class="most-popular-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/7.jpg" alt="">
+                            <div class="most-popular-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="most-popular-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-4 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="most-popular-advantages">
+                    <div class="most-popular-advantages__element d-flex flex-column align-items-center">
+                        <img src="images\feature-icons\1.png" alt="">
+                        <h6 class="text-uppercase font-weight-bold">money back gurantee</h6>
+                        <p>great fill signs he evening</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="most-popular-advantages">
+                    <div class="most-popular-advantages__element d-flex flex-column align-items-center">
+                        <img src="images\feature-icons\2.png" alt="">
+                        <h6 class="text-uppercase font-weight-bold">free delivery</h6>
+                        <p>great fill signs he evening</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="most-popular-advantages">
+                    <div class="most-popular-advantages__element d-flex flex-column align-items-center">
+                        <img src="images\feature-icons\3.png" alt="">
+                        <h6 class="text-uppercase font-weight-bold">alway support</h6>
+                        <p>great fill signs he evening</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="most-popular-advantages">
+                    <div class="most-popular-advantages__element d-flex flex-column align-items-center">
+                        <img src="images\feature-icons\4.png" alt="">
+                        <h6 class="text-uppercase font-weight-bold">secure payment</h6>
+                        <p>great fill signs he evening</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MOST POPULAR END-->
+
+    <!-- TRENDS-->
+    <section class="container section trends">
+        <h2>trending products</h2>
+        <div class="row">
+            <div class="col-12">
+                <div class="trending-products d-flex justify-content-between flex-column flex-md-row flex-wrap">
+                    <div class="trending-products-content flex-column position-relative item">
+                        <div class="trending-products-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/8.jpg" alt="">
+                            <div class="trending-products-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="trending-products-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-5 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$25.00</p>
+                        </div>
+                    </div>
+                    <div class="trending-products-content flex-column position-relative item">
+                        <div class="trending-products-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/9.jpg" alt="">
+                            <div class="trending-products-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="trending-products-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-4 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <div class="trending-products-content flex-column position-relative item">
+                        <div class="trending-products-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/10.jpg" alt="">
+                            <div class="trending-products-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="trending-products-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-4_5 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$30.00</p>
+                        </div>
+                    </div>
+                    <div class="trending-products-content flex-column position-relative item">
+                        <div class="trending-products-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/11.jpg" alt="">
+                            <div class="trending-products-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="trending-products-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-3_5 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$20.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-md-5">
+                <div class="trending-products mt-md-2 d-flex justify-content-between flex-column flex-md-row flex-wrap">
+                    <div class="trending-products-content flex-column position-relative item">
+                        <div class="trending-products-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/12.jpg" alt="">
+                            <div class="trending-products-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="trending-products-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-4 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$20.00</p>
+                        </div>
+                    </div>
+                    <div class="trending-products-content flex-column position-relative item">
+                        <div class="trending-products-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/13.jpg" alt="">
+                            <div class="trending-products-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="trending-products-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-3_5 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$25.00</p>
+                        </div>
+                    </div>
+                    <div class="trending-products-content flex-column position-relative item">
+                        <div class="trending-products-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/14.jpg" alt="">
+                            <div class="trending-products-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="trending-products-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-5 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <div class="trending-products-content flex-column position-relative item">
+                        <div class="trending-products-content__img justify-content-center">
+                            <img class="d-flex" src="images/products/15.jpg" alt="">
+                            <div class="trending-products-content__img-overlay">
+                                <a href="#" class="ti-eye"></a>
+                                <a href="#" class="ti-heart"></a>
+                                <a href="#" class="ti-shopping-cart"></a>
+                            </div>
+                        </div>
+                        <div class="trending-products-content__text d-flex flex-column align-items-center text-center">
+                            <a href="#">red women purses</a>
+                            <div class="stars-count-4_5 my-2 d-flex">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <p>$30.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TRENDS END-->
+
+    <!-- BLOG-->
+    <section class="container blog section">
+        <h2>silon journal</h2>
+        <div class="row">
+            <div class="col-12 col-lg-4 mb-3 mb-lg-0 d-flex justify-content-center">
+                <div class="blog-content mb-5 mb-lg-0">
+                    <img class="w-100" src="images/post/1.jpg" alt="">
+                    <div class="blog-content-date d-flex">
+                        <span></span>
+                        07 July, 2019
+                    </div>
+                    <a class="blog-content-link" href="#">Were divided land his creature which have evening subdue</a>
+                    <div class="hr"></div>
+                    <div class="blog-content-comments">
+                        <i class="ti-package mr-xl-1 mr-xl-2"></i>
+                        <a href="#">Women Fashion</a>
+                        <i class="ti-comments ml-4 mr-xl-1 mr-xl-2"></i>
+                        <a href="#">2 Comments</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-3 mb-lg-0 d-flex justify-content-center">
+                <div class="blog-content mb-5 mb-lg-0">
+                    <img class="w-100" src="images/post/2.jpg" alt="">
+                    <div class="blog-content-date d-flex">
+                        <span></span>
+                        07 July, 2019
+                    </div>
+                    <a class="blog-content-link" href="#">Were divided land his creature which have evening subdue</a>
+                    <div class="hr"></div>
+                    <div class="blog-content-comments">
+                        <i class="ti-package mr-xl-1 mr-xl-2"></i>
+                        <a href="#">Women Fashion</a>
+                        <i class="ti-comments ml-4 mr-xl-1 mr-xl-2"></i>
+                        <a href="#">2 Comments</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 d-flex justify-content-center">
+                <div class="blog-content">
+                    <img class="w-100" src="images/post/3.jpg" alt="">
+                    <div class="blog-content-date d-flex">
+                        <span></span>
+                        07 July, 2019
+                    </div>
+                    <a class="blog-content-link" href="#">Were divided land his creature which have evening subdue</a>
+                    <div class="hr"></div>
+                    <div class="blog-content-comments">
+                        <i class="ti-package mr-xl-1 mr-xl-2"></i>
+                        <a href="#">Women Fashion</a>
+                        <i class="ti-comments ml-4 mr-xl-1 mr-xl-2"></i>
+                        <a href="#">2 Comments</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BLOG END-->
+
+    <!-- FOLLOW US-->
+    <section class="container follow section">
+        <h2>follow us</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                <div class="follow-content position-relative mb-5 mb-xl-0">
+                    <img class="w-100" src="images/instagram/1.jpg" alt="">
+                    <a class="follow-content-red position-absolute" href="#">
+                        <i class="ti-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                <div class="follow-content position-relative mb-5 mb-xl-0">
+                    <img class="w-100" src="images/instagram/2.jpg" alt="">
+                    <a class="follow-content-red position-absolute" href="#">
+                        <i class="ti-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                <div class="follow-content position-relative mb-5 mb-xl-0">
+                    <img class="w-100" src="images/instagram/3.jpg" alt="">
+                    <a class="follow-content-red position-absolute" href="#">
+                        <i class="ti-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                <div class="follow-content position-relative">
+                    <img class="w-100" src="images/instagram/4.jpg" alt="">
+                    <a class="follow-content-red position-absolute" href="#">
+                        <i class="ti-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOLLOW US END-->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container-fluid footer-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="footer-content d-flex flex-column align-items-center align-items-lg-start">
+                            <h6 class="text-uppercase font-weight-bold">About us</h6>
+                            <a class="footer-content-link" href="#">Who we are</a>
+                            <a class="footer-content-link" href="#">Work with us</a>
+                            <a class="footer-content-link" href="#">Become a supplier</a>
+                            <a class="footer-content-link" href="#">Investor relations</a>
+                            <a class="footer-content-link" href="#">Our devices</a>
+                            <a class="footer-content-link" href="#">Affiliate program</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="footer-content d-flex flex-column align-items-center align-items-lg-start">
+                            <h6 class="text-uppercase font-weight-bold">useful links</h6>
+                            <a class="footer-content-link" href="#">Contact us</a>
+                            <a class="footer-content-link" href="#">Common FAQs</a>
+                            <a class="footer-content-link" href="#">Terms & Conditions</a>
+                            <a class="footer-content-link" href="#">Return policy</a>
+                            <a class="footer-content-link" href="#">Cancellation</a>
+                            <a class="footer-content-link" href="#">Track orders</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="footer-content d-flex flex-column align-items-center align-items-lg-start">
+                            <h6 class="text-uppercase font-weight-bold">Online shopping</h6>
+                            <a class="footer-content-link" href="#">Men shopping</a>
+                            <a class="footer-content-link" href="#">Women shopping</a>
+                            <a class="footer-content-link" href="#">Gift cards</a>
+                            <a class="footer-content-link" href="#">Home $ living</a>
+                            <a class="footer-content-link" href="#">Electronics</a>
+                            <a class="footer-content-link" href="#">Accessories</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="footer-content d-flex flex-column align-items-center align-items-lg-start">
+                            <h6 class="text-uppercase font-weight-bold">Experience app on mobile</h6>
+                            <div class="footer-content-btn d-flex">
+                                <a class="google-play" href="#">
+                                    <i class="ti-android"></i>
+                                    <p>
+                                        <span>get it on </span>
+                                        Google play
+                                    </p>
+                                </a>
+                                <a class="app-store" href="#">
+                                    <i class="ti-apple"></i>
+                                    <p>
+                                        <span>get it on </span>
+                                        app store
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="hr hr-exp"></div>
+                            <div class="footer-content-social">
+                                <h5 class="text-uppercase font-weight-bold">follow us</h5>
+                                <a href="#">
+                                    <i class="ti-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="ti-twitter-alt"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="ti-pinterest"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="ti-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hr hr-footer"></div>
+                <div class="footer-copyright d-flex justify-content-center">
+                    <p>
+                        Copyright © 2019 <a href="#">themeies.com</a> All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END-->
+
+
     <script src="js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
